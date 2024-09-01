@@ -42,7 +42,7 @@ listEl.appendChild(li4);
 
 h1El.setAttribute("style", "margin:auto; width:50%; text-align:center;");
 infoEl.setAttribute("style", "margin:auto; width:50%; text-align:center;");
-imgEl.setAttribute("src", "images/cat.avif")
+imgEl.setAttribute("src", "./images/cat.avif")
 nameEl.setAttribute("style", "font-size:25px; text-align:center;");
 kittenEl.setAttribute("style", "font-size:25px; text-align:center;");
 favoriteEl.setAttribute("style", "font-size:20px;");
