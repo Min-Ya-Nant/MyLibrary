@@ -61,9 +61,9 @@ document.addEventListener("DOMContentLoaded", () => {
       M04_Web_APIs: [
         "01-Create-Append.html",
         "02-Event-Listeners.html",
-        "",
-        "",
-        "",
+        "03-Timers-Intervals.html",
+        "04-Data-Attributes.html",
+        "05-Local-Storage.html",
         "06-Git-Guide.html",
         "07-Challenge.html",
         "08-Algorithms.html",
