@@ -1,6 +1,6 @@
 // Use the correct selector `#` to select a button by its ID and not class
-var passwordBtnEl = $('#password-btn');
-var passwordDisplayEl = $('#password-display');
+var agga = $('#agga');
+var nyana = $('#nyana');
 
 // Function returns a random character that includes alphanumeric and special character values
 function getPasswordCharacter() {
@@ -17,7 +17,7 @@ function passwordGenerator(num) {
 }
 
 // Change the event listener to `click` to make the event trigger on single-click
-passwordBtnEl.on('click', function () {
+agga.on('click', function () {
   var newPassword = passwordGenerator(15);
-  passwordDisplayEl.text(newPassword);
+  nyana.text(newPassword);
 });

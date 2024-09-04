@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/07-Challenge.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container">
+      <!-- Timeblocks go here -->
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        const currentDay = moment().format('dddd, MMMM Do');
+        $('#currentDay').text(currentDay);
+
+        const businessHours = [
+          '9 AM',
+          '10 AM',
+          '11 AM',
+          '12 PM',
+          '1 PM',
+          '2 PM',
+          '3 PM',
+          '4 PM',
+          '5 PM',
+          '6 PM',
+          '7 PM',
+          '8 PM',
+          '9 PM',
+          '10 PM',
+          '11 PM',
+          '12 PM',
+        ];
+
+        businessHours.forEach((hour, index) => {
+          const hourInt = index + 9;
+          const currentHour = moment().hour();
+
+          let timeClass = '';
+          if (hourInt < currentHour) {
+            timeClass = 'past';
+          } else if (hourInt === currentHour) {
+            timeClass = 'present';
+          } else {
+            timeClass = 'future';
+          }
+
+          const timeBlock = `
+            <div class="row time-block ${timeClass}">
+              <div class="col-md-1 hour">${hour}</div>
+              <textarea class="col-md-10 description" id="textarea-${index}"></textarea>
+              <button class="col-md-1 saveBtn" data-index="${index}">
+                <i class="fas fa-save"></i>
+              </button>
+            </div>
+          `;
+
+          $('.container').append(timeBlock);
+        });
+
+        // Load saved events from local storage
+        businessHours.forEach((_, index) => {
+          const savedEvent = localStorage.getItem(`event-${index}`);
+          if (savedEvent) {
+            $(`#textarea-${index}`).val(savedEvent);
+          }
+        });
+
+        // Save event to local storage
+        $('.saveBtn').on('click', function () {
+          const index = $(this).data('index');
+          const eventText = $(`#textarea-${index}`).val();
+          localStorage.setItem(`event-${index}`, eventText);
+        });
+      });
+    </script>
+  </body>
+</html>

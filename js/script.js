@@ -78,9 +78,9 @@ document.addEventListener("DOMContentLoaded", () => {
       M05_Third_Party_APIs: [
         "01-Click-Events.html",
         "02-Event-Delegation.html",
-        "03-CSS-Selectors.html",
-        "04-Box-Model.html",
-        "05-CSS-Positioning.html",
+        "03-Bootstrap-Layout.html",
+        "04-Bootstrap-Utilities.html",
+        "05-jQuery-UI.html",
         "06-Git-Guide.html",
         "07-Challenge.html",
         "08-Algorithms.html",
