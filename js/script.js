@@ -32,6 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "08-Module-Project.html",
         "09-Recordings.html",
         "10-Quiz-01-HTML.html",
+        "10-Quiz-02-Attributes.html",
       ],
       M02_Advanced_CSS: [
         "01-wireframing.html",
