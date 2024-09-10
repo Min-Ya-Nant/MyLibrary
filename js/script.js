@@ -31,6 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "07-Challenge.html",
         "08-Module-Project.html",
         "09-Recordings.html",
+        "09-Recordings-Attributes.html",
         "10-Quiz-01-HTML.html",
         "10-Quiz-02-Attributes.html",
       ],
