@@ -20,3 +20,15 @@ var fizzBuzz = function(arr) {
     }
   };
   
+  fizzBuzz([6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+  )
+  // fizz
+  // 7
+  // 8
+  // fizz
+  // Buzz
+  // 11 
+  // fizz
+  // 13
+  // 14 
+  // Buzz 

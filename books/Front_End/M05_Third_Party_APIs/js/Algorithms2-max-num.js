@@ -13,4 +13,4 @@ var maxNum = function (arr) {
   
     return max;
   };
-  
+  maxNum([2, 3, -2, 99, 100, 5000, 321])

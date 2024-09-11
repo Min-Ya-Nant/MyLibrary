@@ -8,12 +8,14 @@ var vowelCount = function(str) {
       var letter = str[i].toLowerCase();
   
       if (vowels.indexOf(letter) !== -1) {
+        // ("a", "e", "i", "o", "u" .indexOf('r') )
         result += 1;
       }
     }
   
     return result;
   };
+  vowelCount('programer')
   
   // Alternatively, this problem could have been solved without the use of `indexOf`, but by using the logical OR (||) operator to check for each vowel
   
