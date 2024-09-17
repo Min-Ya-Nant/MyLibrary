@@ -3,6 +3,7 @@ var fetchButton = document.getElementById('fetch-button');
 
 function getApi() {
   var requestUrl = 'https://api.github.com/users/Min-Ya-Nant/repos?per_page=5';
+  // var requestUrl = 'https://api.github.com/repos/twitter/chill/issues?per_page=5';
 
   fetch(requestUrl)
     .then(function (response) {
