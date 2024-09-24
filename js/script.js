@@ -35,6 +35,11 @@ document.addEventListener("DOMContentLoaded", () => {
         "09-Recordings-CSS-Selectors.html",
         "10-Quiz-01-HTML.html",
         "10-Quiz-02-Attributes.html",
+        "10-Quiz-03-CSS-Selectors.html",
+        "10-Quiz-04-Box-Model.html",
+        "10-Quiz-05-CSS-Positioning.html",
+        "10-Quiz-07-Challenge.html",
+        "10-Quiz-08-Module-Project.html"
       ],
       M02_Advanced_CSS: [
         "01-wireframing.html",
