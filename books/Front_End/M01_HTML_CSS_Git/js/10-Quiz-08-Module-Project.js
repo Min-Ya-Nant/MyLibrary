@@ -7,27 +7,44 @@ let score = 0;
 // Example questions array
 let questions = [
   {
-    question: "Header tag ထဲမှာ tag ဘယ်နှစ်ခုပါဝင်သလဲ ?",
-    options: ["1", "2", "3", "4",],
-    answer: "1",
+    question: "header အတွင်းရှိ nav tag တွင် ပါဝင်သည့် ul နှင့် li tag များသည် ဘာလုပ်ဆောင်ချက် ရှိသလဲ?",
+    options: [
+      "အချက်အလက်များကို အတန်းလိုက် ပြသရန်", 
+      "စာမျက်နှာအတွင်းရှိ အခြားပိုင်းများသို့ ရွှေ့သွားစေရန် လင့်များကို စီစဉ်ထား", 
+      "ပုံများကို ဖော်ပြရန်", 
+      "စာများကို italic နဲ့ ဖော်ပြရန်",],
+    answer: "စာမျက်နှာအတွင်းရှိ အခြားပိုင်းများသို့ ရွှေ့သွားစေရန် လင့်များကို စီစဉ်ထား",
   },
  
 
   {
-    question: "Body tag ထဲမှာ Section ဘယ်နှစ်ခု ပါဝင်သလဲ?",
-    options: [ "1", "2", "3", "4",],
-    answer: "2", 
+    question: "Form ထဲမှာ Have you worked out with a trainer before ဆိုတဲ့မေးခွန်းကို ဘယ်လို input field နဲ့ တည်ဆောက်ထားသလဲ?",
+    options: [ 
+      "Checkbox", 
+      "Radio buttons", 
+      "Text input", 
+      "Dropdown list",],
+    answer: "Radio buttons", 
   },
 
   {
-    question: "Unorder ထဲမှာ List ကို ဘယ်နှစ်ခု ထုတ်ထားလဲ? ",
-    options: [ "1", "2", "3", "4",],
-    answer: "3", 
+    question: "Google Maps ကို webpage ထဲမှာ ဘယ် tag နဲ့ ထည့်သွင်းထားသလဲ?",
+    options: [ 
+      "img", 
+      "ifram", 
+      "map", 
+      "video",],
+    answer: "ifram", 
   },
   {
-    question: "ဒုတိယ Section ထဲမှာ tag ဘယ်နှစ်ခုလဲ? ",
-    options: [ "1", "2", "3", "4", "5",],
-    answer: "5", 
+    question: "Footer အပိုင်းမှာ Run Buddy logo နဲ့အတူ လုပ်ဆောင်ထားတဲ့ ပုံစံက ဘာလဲ?",
+    options: [ 
+      "Website Logo", 
+      "Privacy Policy သို့ link", 
+      "ocial Media Links", 
+      "Contact Information", 
+      ,],
+    answer: "Privacy Policy သို့ link", 
   },
   
 ];

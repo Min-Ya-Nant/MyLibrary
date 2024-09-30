@@ -7,27 +7,40 @@ let score = 0;
 // Example questions array
 let questions = [
   {
-    question: "Header tag ထဲမှာ tag ဘယ်နှစ်ခုပါဝင်သလဲ ?",
-    options: ["1", "2", "3", "4",],
-    answer: "1",
+    question: "ဒီ HTML စာမျက်နှာထဲမှာ header tag ရဲ့ ရည်ရွယ်ချက်က ဘာလဲ? ?",
+    options: ["ဝဘ်စာမျက်နှာရဲ့ အဓိကအကြောင်းအရာကို ဖော်ပြရန်",
+       "ဝဘ်စာမျက်နှာအတွက် metadata များကို ထည့်သွင်းရန်", 
+       "ဝဘ်စာမျက်နှာအတွက် အမူအရာ မိတ်ဆက်စာပေများ သို့မဟုတ် navigation လင့်များကို ဖော်ပြရန်", 
+       "CSS ရဲ့ စတိုင်များကို သတ်မှတ်ထားသော နေရာ",],
+    answer: "ဝဘ်စာမျက်နှာအတွက် အမူအရာ မိတ်ဆက်စာပေများ သို့မဟုတ် navigation လင့်များကို ဖော်ပြရန်",
   },
  
 
   {
-    question: "Body tag ထဲမှာ Section ဘယ်နှစ်ခု ပါဝင်သလဲ?",
-    options: [ "1", "2", "3", "4",],
-    answer: "2", 
+    question: "CSS positioning တွင် relative နဲ့ absolute position တို့ရဲ့ အဓိကကွာခြားချက်က ဘာလဲ??",
+    options: [ "relative positioning က မူရင်းနေနေရာကို အခြေခံထားပြီး၊ absolute positioning က အနီးဆုံး positioned ancestor ကို အခြေခံပြီး ပေါ်လာသည်။", 
+      "absolute positioning က အခြား element များ၏ layout ကို မထိခိုက်ဘဲ ရှိနေပြီး၊ relative positioning က ထိခိုက်စေသည်။", 
+      "absolute positioning က element ကို စာမျက်နှာအပေါ်ထိ တင်ပြီး၊ relative က အောက်ထိ ရွှေ့သည်။", 
+      "relative positioning က element ကို မူလ document flow မှ ထုတ်ပစ်ပြီး၊ absolute positioning က document flow ထဲမှာပဲ ရှိနေသည်။",],
+    answer: "relative positioning က မူရင်းနေနေရာကို အခြေခံထားပြီး၊ absolute positioning က အနီးဆုံး positioned ancestor ကို အခြေခံပြီး ပေါ်လာသည်။", 
   },
 
   {
-    question: "Unorder ထဲမှာ List ကို ဘယ်နှစ်ခု ထုတ်ထားလဲ? ",
-    options: [ "1", "2", "3", "4",],
-    answer: "3", 
+    question: "ပထမ section ထဲရှိ div element အတွက် container class ရဲ့ အရေးပါမှုက ဘာလဲ?? ",
+    options: [ "ပုံတွေကို ဖျောက်ရန်ဖြစ်သည်။", 
+      "ပုံတွေကို တစ်ပြိုင်နက်တည်း ပေါ်တင်ဖော်ပြရန်ဖြစ်သည်။", 
+      "ပုံတွေကို အစုလိုက်အစုလိုက် စုပေါင်းပြီး၊ positioning စတိုင်များကို ထည့်သွင်းရန်ဖြစ်သည်။", 
+      "ဒုတိယပုံကို မူလအတိုင်း ဖျောက်ထားသည်။",],
+    answer: "ပုံတွေကို အစုလိုက်အစုလိုက် စုပေါင်းပြီး၊ positioning စတိုင်များကို ထည့်သွင်းရန်ဖြစ်သည်။", 
   },
   {
-    question: "ဒုတိယ Section ထဲမှာ tag ဘယ်နှစ်ခုလဲ? ",
-    options: [ "1", "2", "3", "4", "5",],
-    answer: "5", 
+    question: "ဒီ HTML စာမျက်နှာအတွင်းရှိ img tag တွင် src attributes များဟာ ဘာကို ညွှန်းဆိုထားတာလဲ? ",
+    options: [ "အခြားဝဘ်ဆိုဒ်များကို ချိတ်ဆက်ထားသည်။", 
+      "လက်ရှိဖိုင်နှင့် အနီးဆုံးရှိ images folder ထဲရှိ ပုံများကို ညွှန်းထားသည်။", 
+      "ပုံပျောက်နေပါက alt text ကို ဖော်ပြသည်။", 
+      "စာမျက်နှာရဲ့ နောက်ခံအရောင်ကို ပြောင်းလဲသည်။", 
+      ],
+    answer: "လက်ရှိဖိုင်နှင့် အနီးဆုံးရှိ images folder ထဲရှိ ပုံများကို ညွှန်းထားသည်။", 
   },
   
 ];
