@@ -7,25 +7,37 @@ let score = 0;
 // Example questions array
 let questions = [
   { 
-    question: "HTML ထဲက အဓိက ခေါင်းစဥ် Student Bio ကို ဘယ် tag နဲ့ ရေးပါသလဲ ?",
-    options: ["h1 tag", "h2 tag", "h3 tag", "h4 tag",],
-    answer: "h1 tag",
+    question: " ?",
+    options: [
+      "", 
+      "", 
+      "", 
+      "",],
+    answer: "",
   },
   {
-    question: "Body tag ထဲမှာ Student name နဲ့ contact info ကို ဘယ် tag နဲ့ ရေးပါသလဲ?",
-    options: ["h1 tag", "h2 tag", "h3 tag", "h4 tag"],
-    answer: "h2 tag",
+    question: "",
+    options: [
+      "", 
+      "", 
+      "", 
+      ""],
+    answer: "",
   },
   
   {
-    question: "Imag မှာ width နဲ့ height ကို သတ်မှတ်ချက် စည်းကမ်းနဲ့ အညီ ထားပေးပါ",
-    options: [ "100", "200", "300", "400",],
-    answer: "200",
+    question: "",
+    options: [ "", "", "","",],
+    answer: "",
   },
 
   {
-    question: "contact info မှာ ဆက်သွယ်ရမယ့် လိပ်စာကို ဘယ်လို list နဲ့ ရေးထားပါသလဲ?",
-    options: [ "order list", "unorder list",],
+    question: "",
+    options: [ 
+      "", 
+      "",
+      "",
+      "",],
     answer: "unorder list",
   },
 

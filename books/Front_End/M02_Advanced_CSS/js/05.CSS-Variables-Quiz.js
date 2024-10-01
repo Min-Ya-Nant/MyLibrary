@@ -7,26 +7,42 @@ let score = 0;
 // Example questions array
 let questions = [
   { 
-    question: "HTML ထဲက အဓိက ခေါင်းစဥ် Student Bio ကို ဘယ် tag နဲ့ ရေးပါသလဲ ?",
-    options: ["h1 tag", "h2 tag", "h3 tag", "h4 tag",],
-    answer: "h1 tag",
+    question: "section tag ကို အဘယ်ကြောင့် products များကို wrap လုပ်ထားသလဲ? ?",
+    options: [
+      "Product card များကို အမျိုးအစားခွဲရန်", 
+      "Product များကို အစုလိုက် Wrap လုပ်ရန်", 
+      "Footer ကို တိကျစွာပြန်သတ်မှတ်ရန်", 
+      "Responsive Design အတွက် ဖြတ်စဉ်ပုံစံအတိုင်း စီစဉ်ရန်",],
+    answer: "Product များကို အစုလိုက် Wrap လုပ်ရန်",
   },
   {
-    question: "Body tag ထဲမှာ Student name နဲ့ contact info ကို ဘယ် tag နဲ့ ရေးပါသလဲ?",
-    options: ["h1 tag", "h2 tag", "h3 tag", "h4 tag"],
-    answer: "h2 tag",
+    question: "ကုန်ပစ္စည်း card များကို ဘာလို့ .products class အတွင်းမှာ ထည့်သွင်းထားသလဲ?",
+    options: [
+      " Card အတွင်း ပုံစံကို သီးခြားပြုလုပ်ရန်", 
+      "Navigation link များ ထည့်ရန်", 
+      "CSS စည်းမျဉ်းများကို စီစဉ်ရန်", 
+      "Toggle device toolbar ရန်ကို ပြရန်"],
+    answer: " Card အတွင်း ပုံစံကို သီးခြားပြုလုပ်ရန်",
   },
   
   {
-    question: "Imag မှာ width နဲ့ height ကို သတ်မှတ်ချက် စည်းကမ်းနဲ့ အညီ ထားပေးပါ",
-    options: [ "100", "200", "300", "400",],
-    answer: "200",
+    question: "box-sizing: border-box; ဆိုတာဘယ်အတွက်သုံးလဲ?",
+    options: [ 
+      "Margin နှင့် Padding မပါဘဲ Content size ကိုသာ အခြေခံသည်။", 
+      "Border, Padding အပါအဝင် အရွယ်အစားကို ထိန်းချုပ်သည်။", 
+      "Element တွေကို ညာဘက် Align လုပ်ပေးသည်။",
+      "Element တွေကို အမြင့် ၁၀၀% ပေးသည်။",],
+    answer: "Border, Padding အပါအဝင် အရွယ်အစားကို ထိန်းချုပ်သည်။",
   },
 
   {
-    question: "contact info မှာ ဆက်သွယ်ရမယ့် လိပ်စာကို ဘယ်လို list နဲ့ ရေးထားပါသလဲ?",
-    options: [ "order list", "unorder list",],
-    answer: "unorder list",
+    question: "Heading tags (h1, h2, h3, h4, h5, h6) ကို font-size: 100%; သတ်မှတ်ခြင်းသည် ဘာဖြစ်စေသလဲ?",
+    options: [ 
+      "Heading များကို အရွယ်အစား အသေးစေသည်။", 
+      "Heading များကို အရွယ်အစား ပုံမှန်အတိုင်း ပြန်ထားပေးသည်။",
+      "Heading များကို ထူစေသည်။",
+      "Heading များကို italic စာလုံးဖြင့် ရေးသည်။",],
+    answer: "Heading များကို အရွယ်အစား ပုံမှန်အတိုင်း ပြန်ထားပေးသည်။",
   },
 
 
