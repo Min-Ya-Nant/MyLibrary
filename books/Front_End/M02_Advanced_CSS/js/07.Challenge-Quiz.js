@@ -7,40 +7,53 @@ let score = 0;
 // Example questions array
 let questions = [
   { 
-    question: " ?",
+    question: "alt attribute ကို ဘာအတွက် သုံးသလဲ? ?",
     options: [
-      "", 
-      "", 
-      "", 
-      "",],
-    answer: "",
+      "ပုံပျောက်နေသောအချိန်တွင် အစားထိုးစာသား ပြရန်", 
+      "ပုံ၏ မူရင်းဆိုဒ်ကို ပြရန်", 
+      "ပုံကို နောက်ခံမှာထားရန်", 
+      "ပုံကို လှည့်ပတ်ရန်",],
+    answer: "ပုံပျောက်နေသောအချိန်တွင် အစားထိုးစာသား ပြရန်",
   },
   {
-    question: "",
+    question: "figure tag ကို ဘာလုပ်ဆောင်ရန်အတွက်သုံးသလဲ?",
     options: [
-      "", 
-      "", 
-      "", 
-      ""],
-    answer: "",
+      "Image တစ်ခုခြင်းစီဖြင့် ပုံကို ပုံမှန်ထည့်ရန်", 
+      "Buttons များကို ထည့်ရန်", 
+      "Contact details ထည့်ရန်", 
+      "mage ကို Caption ဖြင့် ထည့်ရန်"],
+    answer: "image ကို Caption ဖြင့် ထည့်ရန်",
   },
   
   {
-    question: "",
-    options: [ "", "", "","",],
-    answer: "",
+    question: "CSS ကို ရွေးချယ်ရန် General Rule သတ်မှတ်ရာတွင် * ဆိုသည်မှာ ဘာကိုဆိုလိုသနည်း?",
+    options: [ 
+      "Paragraph elements only", 
+      "Header elements only", 
+      "All HTML elements",
+      "Specific classes only",],
+    answer: "All HTML elements",
   },
 
   {
-    question: "",
+    question: ".float-left class ကို သုံးခြင်းအားဖြင့် ဘာကို ပြုလုပ်ပေးသနည်း?",
     options: [ 
-      "", 
-      "",
-      "",
-      "",],
-    answer: "unorder list",
+      " Element ကို ညာဘက်သို့ float လုပ်သည်။", 
+      "Element ကို ဘယ်ဘက်သို့ float လုပ်သည်။",
+      "Element ကို center-align လုပ်သည်",
+      "Element ကို hidden လုပ်သည်",],
+    answer: "Element ကို ဘယ်ဘက်သို့ float လုပ်သည်။",
   },
 
+  {
+    question: "Buttons တွင် hover effect မှာ ဘာကို ပြုပြင်ထားသနည်း?",
+    options: [ 
+      "Background color ကို အပြာရောင်ဖြစ်စေသည်", 
+      "Background color ကို အစိမ်းရောင်ဖြစ်စေသည်",
+      "Background color ကို အနက်ရောင်ဖြစ်စေသည်",
+      "Background color ကို ပန်းရောင်ဖြစ်စေသည်",],
+    answer: "Background color ကို ပန်းရောင်ဖြစ်စေသည်",
+  },
 
 ];
 
