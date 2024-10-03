@@ -7,40 +7,40 @@ let score = 0;
 // Example questions array
 let questions = [
   { 
-    question: " ?",
+    question: " subtract function ရဲ့ အလုပ်လုပ်ပုံမှာ တစ်ခုချင်းစီကို နားလည်စေဖို့, ထုတ်လွှင့်ထားသော result က ဘာဖြစ်သလဲ?",
     options: [
-      "", 
-      "", 
-      "", "",],
-    answer: "",
+      "191", 
+      "91", 
+      "100", "9",],
+    answer: "9",
   },
   {
-    question: "?",
+    question: "multiply function က num1 နဲ့ num2 ကို တွက်ပြီးရတဲ့ အဖြေက ဘာဖြစ်သလဲ?",
     options: [
-      "", 
-      "", 
-      "", 
-      ""],
-    answer: "",
+      "70", 
+      "77", 
+      "490", 
+      "49"],
+    answer: "490",
   },
   
   {
-    question:"?",
+    question:"Mocha နဲ့ Chai မှာ expect(result).to.eql(34); ဆိုတာ ဘာကို ဆိုလိုတာလဲ?",
     options: [ 
-      "", 
-      "", 
-      "", 
-      "",],
-    answer: "",
+      "result က 34 နဲ့ တူရင် pass ဖြစ်မယ်", 
+      "result က 34 မဟုတ်ရင် fail ဖြစ်မယ်", 
+      " result က 34 နဲ့ မတူရင် pass ဖြစ်မယ်", 
+      "result က 34 ဖြစ်ရင် fail ဖြစ်မယ်",],
+    answer: "result က 34 နဲ့ တူရင် pass ဖြစ်မယ်",
   },
 
   {
-    question: "?",
-    options: [ "", 
-      "",
-      "",
-      "",],
-    answer: "",
+    question: "describe function က ဘာကို လုပ်ပေးသလဲ?",
+    options: [ "function တစ်ခုချင်းစီကို စမ်းသပ်ပေးသည်", 
+      "test cases တွေကို စုစည်းပေးသည်",
+      "output တွေကို compare လုပ်ပေးသည်",
+      "function တွေကို rewrite လုပ်ပေးသည်",],
+    answer: "test cases တွေကို စုစည်းပေးသည်",
   },
 
 

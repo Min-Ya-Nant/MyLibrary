@@ -7,40 +7,41 @@ let score = 0;
 // Example questions array
 let questions = [
   { 
-    question: " ?",
+    question: " specialCharacters array တွင် အတိအကျ ရှိသော special characters အရေအတွက်ကို သေချာပြပါ။",
     options: [
-      "", 
-      "", 
-      "", "",],
-    answer: "",
+      "7", 
+      "8", 
+      "10", 
+      "12",],
+    answer: "10",
   },
   {
-    question: "?",
+    question: "password length ကိုသုံးစွဲသူက ၆ ရိုက်ထည့်လျှင် မည်သည့်ကာလလည်း prompt box ပြောင်းပြန်ပေါ်လာမည်လဲ?",
     options: [
-      "", 
-      "", 
-      "", 
-      ""],
-    answer: "",
+      "6 မှန်လို့ ပေါ်မလာဘူး", 
+      "အမှန်အတိုင်း တစ်ခါအပြီး ပြန်လည် ပေါ်မယ်", 
+      "၆ ရိုက်ပြီးတော့ပဲ လက်ခံမယ်", 
+      " Error ဖြစ်မယ်"],
+    answer: "အမှန်အတိုင်း တစ်ခါအပြီး ပြန်လည် ပေါ်မယ်",
   },
   
   {
-    question:"?",
+    question:"အောက်ပါ code တွင် password length ကို ဘယ်လိုအတိုင်း ပြင်ဆင်မည်နည်း?",
     options: [ 
-      "", 
-      "", 
-      "", 
-      "",],
-    answer: "",
+      "generatePopup ကို တန်ဖိုးနှင့် password ကို return ပေးရမည်", 
+      "generatePopup value ကို prompt() ထဲမှာ ပြုပြင်ရမည်", 
+      "Code ထဲမှာ password ထည့်ရန် မလို", 
+      "console.log() ဖြင့် ထုတ်မည်",],
+    answer: "generatePopup ကို တန်ဖိုးနှင့် password ကို return ပေးရမည်",
   },
 
   {
-    question: "?",
-    options: [ "", 
-      "",
-      "",
-      "",],
-    answer: "",
+    question: "background-image က hero section မှာ ဘယ်လိုကောက်ထားသလဲ?",
+    options: [ "background-color: blue;", 
+      "background-image: url../images/pp2.jpg",
+      "background-image: url../images/hero.jpg",
+      "background: none;",],
+    answer: "background-image: url../images/pp2.jpg",
   },
 
 
