@@ -1,137 +1,189 @@
-*,
-*::before,
-*::after {
+* {
     box-sizing: border-box;
-}
-
-html,
-body,
-.wrapper {
-    height: 100%;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
 body {
-    font-family: sans-serif;
-    background-color: #010101;
+    background-color: #d9dcd6;
 }
 
-.wrapper {
-    padding-top: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-header {
-    text-align: center;
+.header {
     padding: 20px;
-    padding-top: 0px;
-    color: hsl(106, 94%, 50%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
 }
 
-.card {
-    background-color: hsl(349, 64%, 69%);
-    border-radius: 5px;
-    border-width: 1px;
-    box-shadow: rgb(2, 206, 238);
-    color: hsl(106, 94%, 50%);
-    font-size: 18px;
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 30px 40px;
-}
-
-.card-header::after {
-    content: " ";
-    display: block;
-    width: 100%;
-    background: #07e0f8;
-    height: 2px;
-}
-
-.card-body {
-    min-height: 100px;
-}
-
-.card-footer {
-    text-align: center;
-}
-
-.card-footer::before {
-    content: " ";
-    display: block;
-    width: 100%;
-    background: #07e0f8;
-    height: 2px;
-}
-
-.card-footer::after {
-    content: " ";
-    display: block;
-    clear: both;
-}
-
-.btn {
-    border: none;
-    background-color: hsl(107, 92%, 15%);
-    border-radius: 25px;
-    box-shadow: rgb(248, 64, 8);
-    color: hsl(77, 97%, 49%);
+.header h1 {
     display: inline-block;
-    font-size: 22px;
-    line-height: 22px;
-    margin: 16px 16px 16px 20px;
-    padding: 14px 34px;
-    text-align: center;
-    cursor: pointer;
+    font-size: 48px;
 }
 
-button[disabled] {
-    cursor: default;
-    background: #5e9fe8;
+.header section {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+p {
+    font-size: 16px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../ images/pp2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
 }
 
 .float-right {
     float: right;
+    margin-left: 25px;
 }
 
-#password {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border: none;
-    display: block;
-    width: 100%;
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 85px;
-    font-size: 1.2rem;
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.about-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.my-education {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.my-skills {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.about-me img {
+    max-height: 200px;
+}
+.my-education img {
+    max-height: 200px;
+}
+
+.my-skills img {
+    max-width: 200px;
+}
+
+.about-me h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.my-education h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.my-skills h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+.benefits {
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: 2px dashed #0476f8;
-    border-radius: 6px;
-    resize: none;
-    overflow: hidden;
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
 }
 
-@media (max-width: 690px) {
-    .btn {
-      font-size: 1rem;
-      margin: 16px 0px 0px 0px;
-      padding: 10px 15px;
-    }
-  
-    #password {
-      font-size: 1rem;
-    }
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
 }
-  
-@media (max-width: 500px) {
-    .btn {
-      font-size: 0.8rem;
-    }
+
+.benefit-lead h2 {
+    margin-bottom: 10px;
+    text-align: center;
 }
-  
+
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+.btn:hover {
+    background-color: #fc38fc;
+}
+.btn {
+    display: inline-block;
+    margin: 0;
+}
+
+
+.footer {
+    background-color: #2a607c;
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
