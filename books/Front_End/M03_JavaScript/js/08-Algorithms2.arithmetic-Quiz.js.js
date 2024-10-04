@@ -7,40 +7,50 @@ let score = 0;
 // Example questions array
 let questions = [
   { 
-    question: " ?",
+    question: "oddOrEven function က 777 ကို input လုပ်လိုက်တဲ့အခါ output က ဘာဖြစ်မလဲ?",
     options: [
-      "", 
-      "", 
-      "", "",],
-    answer: "",
+      "even", 
+      "odd", 
+      "error", "null",],
+    answer: "odd",
   },
   {
-    question: "?",
+    question: "oddOrEven function က 1002 ကို input လုပ်လိုက်တဲ့အခါ output က ဘာဖြစ်မလဲ?",
     options: [
-      "", 
-      "", 
-      "", 
-      ""],
-    answer: "",
+      "even", 
+      "odd", 
+      "undefined", 
+      "true"],
+    answer: "even",
   },
   
   {
-    question:"?",
+    question:"num % 2 === 0 ဆိုတာဘာကို ဆိုလိုသလဲ?",
     options: [ 
-      "", 
-      "", 
-      "", 
-      "",],
-    answer: "",
+      "num ဟာ odd ဖြစ်တယ်", 
+      "num ဟာ 2 နဲ့ ပိုင်းဖြတ်နိုင်တယ်", 
+      "num ဟာ negative ဖြစ်တယ်", 
+      "num ဟာ decimal ဖြစ်တယ်",],
+    answer: "num ဟာ 2 နဲ့ ပိုင်းဖြတ်နိုင်တယ်",
   },
 
   {
-    question: "?",
-    options: [ "", 
-      "",
-      "",
-      "",],
-    answer: "",
+    question: "oddOrEven function ကဘာလုပ်ပေးသလဲ?",
+    options: [ 
+      "ပိုင်းဖြတ်နိုင်မည့် number တွေကို even ပြန်ပေးပြီး, မဖြတ်နိုင်တဲ့ number တွေကို odd ပြန်ပေးတယ်", 
+      "မည်သည့် number တွေမဆို odd ပြန်ပေးတယ်",
+      "Number တွေကို 2 နဲ့ပေါင်းပေးတယ်",
+      "string တွေကို ဖြေရှင်းပေးတယ်",],
+    answer: "ပိုင်းဖြတ်နိုင်မည့် number တွေကို even ပြန်ပေးပြီး, မဖြတ်နိုင်တဲ့ number တွေကို odd ပြန်ပေးတယ်",
+  },
+
+  {
+    question: "oddOrEven function က even or odd output ကို ထုတ်ပေးဖို့ ဘာ method ကို သုံးထားသလဲ?",
+    options: [ "num.toFixed()", 
+      "num % 2",
+      "num / 2",
+      "num.concat()",],
+    answer: "num % 2",
   },
 
 

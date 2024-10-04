@@ -7,42 +7,51 @@ let score = 0;
 // Example questions array
 let questions = [
   { 
-    question: " ?",
+    question: "fightOrSkip function မှာ skip ကို ရွေးချယ်သွားရင် ဘာဖြစ်မှာလဲ?",
     options: [
-      "", 
-      "", 
-      "", "",],
-    answer: "",
+      "Player ရဲ့ health ကို 5% လျော့တယ်", 
+      "Player ရဲ့ health ကို 10% လျော့တယ်", 
+      "Player ရဲ့ money ကို 10 လျော့ပြီး၊ battle မှထွက်သွားတယ်", 
+      "Player ရဲ့ attack ကို 5 လျော့ပြီး၊ battle မှထွက်သွားတယ်",],
+    answer: "Player ရဲ့ money ကို 10 လျော့ပြီး၊ battle မှထွက်သွားတယ်",
   },
   {
-    question: "?",
+    question: "fight function ထဲမှာ isPlayerTurn ကို ဘာအတွက်အသုံးပြုတာလဲ?",
     options: [
-      "", 
-      "", 
-      "", 
-      ""],
-    answer: "",
+      "Player က အရင်ဆုံးတိုက်ခိုက်ဖို့", 
+      "Enemy က အရင်ဆုံးတိုက်ခိုက်ဖို့", 
+      "Random ဖော်မြူလာနဲ့ turn order ကိုဆုံးဖြတ်ဖို့", 
+      "Player နဲ့ Enemy အပြန်အလှန်တိုက်ခိုက်ဖို့"],
+    answer: "Random ဖော်မြူလာနဲ့ turn order ကိုဆုံးဖြတ်ဖို့",
   },
   
   {
-    question:"?",
+    question:"shop function မှာ number 1 ကို ရွေးချယ်မယ်ဆိုရင် ဘာဖြစ်မယ်လဲ?",
     options: [ 
-      "", 
-      "", 
-      "", 
-      "",],
-    answer: "",
+      "Attack ကို 10 တိုးပေး", 
+      "Health ကို 10 တိုးပေး", 
+      "Health ကို 20 တိုးပေး", 
+      "Money ကို 10 တိုးပေး",],
+    answer: "Health ကို 20 တိုးပေး",
   },
 
   {
-    question: "?",
-    options: [ "", 
-      "",
-      "",
-      "",],
-    answer: "",
+    question: "localStorage ကို endGame function မှာ ဘာအတွက်အသုံးပြုတာလဲ?",
+    options: [ " Player ရဲ့ current money ကို သိမ်းဆည်းဖို့", 
+      "Player ရဲ့ high score ကို သိမ်းဆည်းဖို့",
+      "Player ရဲ့ game data တွေကိုပြန် save လုပ်ဖို့",
+      "Player ရဲ့ health ကိုပြန်သိမ်းဆည်းဖို့",],
+    answer: "Player ရဲ့ high score ကို သိမ်းဆည်းဖို့",
   },
 
+  {
+    question: "getPlayerName function ဟာ ဘာလုပ်ပေးသလဲ?",
+    options: [ "Player ရဲ့ robot အမည်ကို prompt box ထဲမှာရိုက်ထည့်", 
+      "Player ရဲ့ robot health ကိုပြန်ထည့်",
+      "Player ရဲ့ robot attack ကိုထည့်",
+      "Player ရဲ့ robot အမည်ကို math.random နဲ့ရွေးချယ်",],
+    answer: "Player ရဲ့ robot အမည်ကို prompt box ထဲမှာရိုက်ထည့်",
+  },
 
 ];
 

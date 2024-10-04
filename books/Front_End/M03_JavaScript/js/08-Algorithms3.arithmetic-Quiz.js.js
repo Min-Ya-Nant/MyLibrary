@@ -7,42 +7,51 @@ let score = 0;
 // Example questions array
 let questions = [
   { 
-    question: " ?",
+    question: " before function ရဲ့ အလုပ်လုပ်ပုံကဘာလဲ?",
     options: [
-      "", 
-      "", 
-      "", "",],
-    answer: "",
+      "Testing မလုပ်ခင်အချိန်မှာ console.log ကို override လုပ်ပြီး values တွေကိုသိမ်းထားပေးတာ", 
+      "Testing ပြီးရင် console.log ကို ပြန်သုံးနိုင်အောင်လုပ်ပေးတာ", 
+      "Testing မှာ error ဖြစ်မဖြစ် စမ်းသပ်တာ", 
+      "console.log ကို မဖျက်ပဲ override လုပ်တာ",],
+    answer: "Testing မလုပ်ခင်အချိန်မှာ console.log ကို override လုပ်ပြီး values တွေကိုသိမ်းထားပေးတာ",
   },
   {
-    question: "?",
+    question: "describe function ကဘာလုပ်ပေးသလဲ?",
     options: [
-      "", 
-      "", 
-      "", 
-      ""],
-    answer: "",
+      "Function ရဲ့ မူဝါဒကို ရေးပေးတယ်", 
+      "Function ရဲ့ test case တွေကို ဖန်တီးပေးတယ်", 
+      "Function ရဲ့ result ကို ပြောပြတယ်", 
+      "Function ရဲ့ output ကို console.log ထဲမှာပြပေးတယ်"],
+    answer: "Function ရဲ့ test case တွေကို ဖန်တီးပေးတယ်",
   },
   
   {
-    question:"?",
+    question:"expect(console.log.calledWith()).to.eql([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]); ကဘာကိုစမ်းသပ်ပေးသလဲ?",
     options: [ 
-      "", 
-      "", 
-      "", 
-      "",],
-    answer: "",
+      "console.log က နံပါတ် 1 ကနေ 10 ထိကိုတိတိကျကျ ဖော်ပြနေမယ့် စမ်းသပ်ချက်", 
+      "onsole.log က နံပါတ်တွေကို random ပြောပြနေမယ့်စမ်းသပ်ချက်", 
+      " console.log က console.error လို့ရိုက်ထုတ်နေမယ့်စမ်းသပ်ချက်", 
+      "console.log ကိုပြန်စမ်းထားတာ",],
+    answer: "console.log က နံပါတ် 1 ကနေ 10 ထိကိုတိတိကျကျ ဖော်ပြနေမယ့် စမ်းသပ်ချက်",
   },
 
   {
-    question: "?",
-    options: [ "", 
-      "",
-      "",
-      "",],
-    answer: "",
+    question: "console.log.calledWith() ဆိုတာဘာကို လုပ်ပေးသလဲ?",
+    options: [ "console.log က return လုပ်နေတဲ့ values တွေကို ပြန်လည်ဖော်ပြ", 
+      "console.log ဟာ test case တစ်ခုခု run ပြီးမှ values တွေကို ပြန်ရောက်",
+      "console.log ဟာ လုပ်နေတဲ့ function များကိုရှာပေး",
+      "console.log က error message ကိုပေး",],
+    answer: "console.log က return လုပ်နေတဲ့ values တွေကို ပြန်လည်ဖော်ပြ",
   },
 
+  {
+    question: "logNums function ကဘာလုပ်ပေးသလဲ?",
+    options: [ "console.log မှာ 1 ကနေ num ထိ log လုပ်ပေး", 
+      "console.error မှာ numbers တွေထုတ်ပေး",
+      "string တွေကို log ပြီး ပြန်လည်ပေး",
+      "random number တွေကို console.log ထဲမှာထုတ်ပေး",],
+    answer: "console.log မှာ 1 ကနေ num ထိ log လုပ်ပေး",
+  },
 
 ];
 
